@@ -304,7 +304,6 @@ a{
 .project-card{
     width: 90%;
     height: 550px;
-    background-image: url(./image/hero.webp);
     background-size: cover;
     /* background-repeat: no-repeat; */
     position: relative;
@@ -380,6 +379,8 @@ a{
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    font: bold;
+    font-size: larger;
 }
 .project-skill{
     font-size: 35px;
@@ -414,18 +415,18 @@ a{
     transform: scale(1.1);
 }
 #project1{
-    background-image: url(./image/car.jpg);
+    background-image: url(./image/raz2.jpg);
 }
 #project2{
     margin-left: 120px;
-    background-image: url(./image/drone.jpg);
+    background-image: url(./image/dis3.jpg);
 }
 #project3{
-    background-image: url(./image/circle.jpg);
+    background-image: url(./image/std.png);
 }
 #project4{
     margin-left: 120px;
-   background-image: url(./image/light.jpg);
+   background-image: url(./image/drone.jpg);
 }
 
 @media (max-width:1300px) {
