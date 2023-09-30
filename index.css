@@ -422,11 +422,11 @@ a{
     background-image: url(./image/dis3.jpg);
 }
 #project3{
-    background-image: url(./image/std.png);
+    background-image: url(./image/fileupload.png);
 }
 #project4{
     margin-left: 120px;
-   background-image: url(./image/drone.jpg);
+   background-image: url(./image/std.png);
 }
 
 @media (max-width:1300px) {
@@ -488,14 +488,14 @@ a{
 .skill-container{
     max-width: 1200px;
     height: 45vh;
-    margin: 0 auto;
+    margin: auto;
     position: relative;
     display: flex;
     justify-content: space-between;
     padding: 2.5rem;
     align-items: center;
     margin-bottom: 4rem;
-    margin-top: -7.5rem;
+    margin-top: 5rem;
     
 }
 .left-skill{
@@ -533,13 +533,14 @@ a{
     font-size: 13em;
     font-style: bold;
     color: rgb(231, 231, 231);
-    /* padding-top: 50px; */
-    bottom: -5rem;
+    bottom: -12rem;
     right: 0;
     user-select: none;
     
 }
-
+#contact{
+    margin-top: 150px;
+}
 .contact-us-form{
     width: 100%;
     background-color: rgb(231, 231, 231);
@@ -600,7 +601,6 @@ a{
 }
 footer{
     position: relative;
-    margin-top: 1px;
     background-color: #343d68;
     padding: 5rem;
 }
@@ -643,4 +643,12 @@ footer{
 .icon-wrapper i:hover{
     transform: scale(3);
     color: #e84949;
+}
+.skill-descrip{
+
+    display: flex;
+    flex-direction: row;
+    font-size: 40px;
+    gap: 20px;
+    
 }
